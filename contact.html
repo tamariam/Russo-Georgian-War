@@ -29,6 +29,38 @@
                 </ul>
             </nav>
         </header>
+        <main>
+            <div class="war-image"></div>
+            <section id="contact-section">
+                <div class="contact-container">
+                    <form id="contact-form" method="GET">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="email@domain.com " required>
+                        <label for="message">Message:</label>
+                        <textarea name="feedback" id="feedback" cols="30" rows="10"
+                            placeholder="Please Send us  a feedback  "></textarea>
+                        <p id="form-p">
+                            Want to know more about the Russo-Georgian war?Please join our maiing list and we will send
+                            you more useful links about this war.
+                        </p>
+                        <!-- Mailing list -->
+                        <div>
+                            <input type="radio" id="join" name="mailing_list" value="mail" required>
+                            <label for="join">Yes please.</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="no-join" name="mailing_list" value="do_not_mail">
+                            <label for="no-join" class="mailing-list-options"> No thanks.</label>
+                        </div>
+                        
+                        <input type="submit" id="submit-btn" value="Submit">
+                    </form>
+                </div>
+
+            </section>
+        </main>
         <footer class="footer">
 
             <a class="link" li href="https://en.wikipedia.org/wiki/Russo-Georgian_War" target="_blank"
