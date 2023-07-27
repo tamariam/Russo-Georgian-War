@@ -15,6 +15,10 @@
 
 }
 
+.audio-div {
+    text-align: Center;
+    margin-top: 12px;
+}
 
 /* add style to body  */
 @media (min-width: 375px) {
@@ -263,5 +267,77 @@
 
     .link:hover {
         color: black;
+    }
+
+    /* gallery page */
+
+
+    #images {
+        line-height: 0;
+        margin-top: 26px;
+    }
+
+    #images img {
+        width: 100%;
+        line-height: 6px;
+        transition: all 0.4s;
+
+
+    }
+
+    #images img:hover {
+        transform: scale(1.2);
+
+
+    }
+
+    /* larger phones */
+    @media (min-width: 576px) {
+        #images {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+            grid-template-rows: 5;
+            gap: 10px;
+            padding: 16px;
+            line-height: 0;
+        }
+
+
+
+        #images img {
+            border-radius: 5px;
+            height: 205px;
+
+        }
+
+        #images img:hover {
+            transform: scale(1.1);
+
+
+        }
+
+        footer {
+            margin-top: 16px;
+        }
+    }
+
+    @media (min-width: 972px) {
+        #images {
+            grid-template-columns: 3fr 3fr 3fr;
+
+            width: 90vw;
+            row-gap: 25px;
+        }
+
+        #images img {
+            max-width: 100%;
+            height: auto;
+
+        }
+
+        footer {
+            width: 100%;
+        }
     }
 }
