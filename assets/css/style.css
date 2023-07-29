@@ -7,13 +7,13 @@
 
 
 /*  background image */
-.war-image {
+/* .war-image {
     width: 100vw;
     height: 600px;
     background: url(../images/war\ big.avif ) no-repeat center center;
     background-size: cover;
 
-}
+} */
 
 .audio-div {
     text-align: Center;
@@ -23,9 +23,9 @@
 /* add style to body  */
 @media (min-width: 375px) {
     body {
-        /* display: Flex;
+        display: Flex;
         align-items: center;
-        justify-content: center; */
+        justify-content: center;
         color: #3a3a3a;
     }
 
@@ -43,7 +43,7 @@
         background: url(../images/war\ big.avif ) no-repeat center center;
 
         background-size: cover;
-
+        background-position: 10px center;
 
 
     }
@@ -323,6 +323,8 @@
     #select-answer {
         padding: 6px 9px;
         border-radius: 9px;
+        margin: 9px 0;
+        width: 95%;
 
     }
 
@@ -332,6 +334,29 @@
         border: 1px solid gray;
         width: 89%;
     }
+
+    .mailing-div {
+
+        width: 95%;
+        margin-bottom: 9px;
+    }
+
+    .radio-input {
+        margin-bottom: 9px;
+    }
+
+    #form-p {
+        margin-bottom: 9px;
+    }
+
+    .submit {
+        padding: 9px 12px;
+        border-radius: 9px;
+        border: 1px solid gray;
+        cursor: pointer;
+        width: 95%;
+    }
+
 
     @media (min-width:576px) {
         #images {
@@ -343,8 +368,6 @@
             padding: 16px;
             line-height: 0;
         }
-
-
 
         #images img {
             border-radius: 5px;

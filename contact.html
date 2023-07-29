@@ -46,7 +46,7 @@
                         <textarea name="feedback" id="feedback" cols="30" rows="10"
                             placeholder="Please Send us  a feedback  "></textarea>
                         <br>
-                        <label for="select-answer">where did you hear about our site?</label>
+                        <label for="select-answer" class="label">where did you hear about our site?</label>
                         <select id="select-answer" required>
 
                             <option class="option" value="">Please choose one option:</option>
@@ -55,21 +55,26 @@
                             <option class="option" value="other"> Other</option>
 
                         </select>
-                        <p id="form-p">
-                            Want to know more about the Russo-Georgian war?Please join our maiing list and we will send
-                            you more detailing information links about this war.
-                        </p>
-                        <!-- Mailing list -->
-                        <div>
-                            <input class="input" type="radio" id="join" name="mailing_list" value="mail" required>
-                            <label class="label" for="join">Yes please.</label>
-                        </div>
-                        <div>
-                            <input class="input" type="radio" id="no-join" name="mailing_list" value="do_not_mail">
-                            <label for="no-join" class="label"> No thanks.</label>
-                        </div>
+                        <div class="mailing-div">
+                            <p id="form-p">
+                                Want to know more about the Russo-Georgian war?Please join our maiing list and we will
+                                send
+                                you more detailing information links about this war.
+                            </p>
+                            <!-- Mailing list -->
 
-                        <input class="input" type="submit" id="submit-btn" value="Submit">
+                            <div>
+                                <input class="radio-input" type="radio" id="join" name="mailing_list" value="mail"
+                                    required>
+                                <label class="label" for="join">Yes please.</label>
+                            </div>
+                            <div>
+                                <input class="radio-input" type="radio" id="no-join" name="mailing_list"
+                                    value="do_not_mail">
+                                <label class="label" for="no-join" class="label"> No thanks.</label>
+                            </div>
+                        </div>
+                        <input class="submit" type="submit" id="submit-btn" value="Submit">
                     </form>
                 </div>
 
