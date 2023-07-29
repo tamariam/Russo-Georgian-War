@@ -291,8 +291,7 @@
 
     }
 
-    /* larger phones */
-    @media (min-width: 576px) {
+    @media (min-width:576px) {
         #images {
             display: grid;
             grid-template-columns: 1fr 1fr;
