@@ -291,6 +291,42 @@
 
     }
 
+    .contact-form {
+        width: 92%;
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #details-div {
+        padding: 9px 0;
+        display: Flex;
+        flex-direction: column;
+        margin-bottom: 9px;
+
+
+
+    }
+
+    #feedback {
+        width: 74%;
+        height: 30vh;
+        resize: both;
+        overflow: auto;
+        border-radius: 9px;
+    }
+
+    .input {
+        padding: 9px 12px;
+        border-radius: 9px;
+        border: 1px solid gray;
+        width: 70%;
+    }
+
+    #feedback {}
+
     @media (min-width:576px) {
         #images {
             display: grid;
