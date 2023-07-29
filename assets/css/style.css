@@ -305,27 +305,33 @@
         display: Flex;
         flex-direction: column;
         margin-bottom: 9px;
+        width: 100%;
 
 
 
     }
 
     #feedback {
-        width: 74%;
-        height: 30vh;
+        width: 95%;
+        height: 25vh;
         resize: both;
         overflow: auto;
         border-radius: 9px;
+        margin-bottom: 9px;
+    }
+
+    #select-answer {
+        padding: 6px 9px;
+        border-radius: 9px;
+
     }
 
     .input {
         padding: 9px 12px;
         border-radius: 9px;
         border: 1px solid gray;
-        width: 70%;
+        width: 89%;
     }
-
-    #feedback {}
 
     @media (min-width:576px) {
         #images {
