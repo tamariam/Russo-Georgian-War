@@ -357,6 +357,38 @@
         width: 95%;
     }
 
+    /* feedback html */
+    #thank-you-section {
+        width: 95vw;
+
+    }
+
+    .thanks-message {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .thanks-message h1 {
+        margin-bottom: 16px;
+
+    }
+
+    .video-link {
+        max-width: 100%;
+
+
+
+    }
+
+    .video {
+        text-align: center;
+        margin-top: 16px;
+
+    }
+
+    .footer {
+        margin-top: 132px;
+    }
 
     @media (min-width:576px) {
         #images {
@@ -381,9 +413,9 @@
 
         }
 
-        .footer {
+        /* .footer {
             margin-top: 16px;
-        }
+        } */
     }
 
     @media (min-width: 972px) {
