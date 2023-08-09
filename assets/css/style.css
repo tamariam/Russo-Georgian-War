@@ -337,23 +337,18 @@ header {
 
 #images {
     line-height: 0;
-    margin-top: 26px;
+    margin: 26px auto;
     width: 95vw;
 }
 
 #images img {
     width: 100%;
     line-height: 6px;
-    transition: all 0.4s;
+    /* transition: all 0.4s; */
 
 
 }
 
-#images img:hover {
-    transform: scale(1.2);
-
-
-}
 
 .contact-form {
     width: 92%;
@@ -497,12 +492,12 @@ header {
     #images img {
         border-radius: 5px;
         height: 205px;
+        transition: all 0.4s;
 
     }
 
     #images img:hover {
-        transform: scale(1.1);
-
+        transform: scale(1.05);
 
     }
 
@@ -554,15 +549,16 @@ header {
         font-size: 22px;
     }
 
-    #images {
-        grid-template-columns: 3fr 3fr 3fr;
+    /* gallery */
 
-        width: 90vw;
-        row-gap: 25px;
+    #images {
+        display: flex;
+        flex-direction: column;
+        margin: o auto;
     }
 
     #images img {
-        max-width: 100%;
+        max-width: 80%;
         height: auto;
 
     }
