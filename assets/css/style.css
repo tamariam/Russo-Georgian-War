@@ -2,8 +2,7 @@
 * {
     margin: 0;
     padding: 0
-}
-
+/* general css rules */
 
 
 /*  background image */
@@ -33,13 +32,12 @@ header {
 }
 
 
-
-
 /*  background image */
+
 .war-image {
     width: 95vw;
     height: 300px;
-    background: url(../images/war\ big.avif ) no-repeat center center;
+    background: url(../images/war-medium.avif ) no-repeat center center;
 
     background-size: cover;
     background-position: 10px center;
@@ -47,9 +45,8 @@ header {
 
 }
 
-
-
 /*  give styles to first heading named August war */
+
 #h1 {
     font-size: 28px;
     letter-spacing: 2px;
@@ -103,12 +100,19 @@ header {
     width: 200px;
     height: 200px;
     letter-spacing: 2px;
-    color: black;
     position: absolute;
     top: 15px;
     left: 15px;
+
 }
 
+.text-on-image {
+    font-family: lato, sans-serif;
+    font-weight: 700;
+    color: #000000;
+    font-size: 16px;
+
+}
 
 .section2-div {
     display: flex;
@@ -121,6 +125,7 @@ header {
 .section2-header {
     text-align: center;
     text-transform: uppercase;
+    margin-top: 16px;
 
 }
 
