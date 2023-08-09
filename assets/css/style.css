@@ -450,11 +450,19 @@ header {
     /* home  */
     .section2-div {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         width: 95%;
         margin: 0 auto;
+
     }
+
+    .text-div {
+        border-bottom: none;
+    }
+
+
+
 
     /* gallery */
     #images {
