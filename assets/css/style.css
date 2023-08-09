@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+
 /* general css rules 
 
 color for all h1 elements :0d1b2a;
@@ -24,6 +25,7 @@ body {
     align-items: center;
     justify-content: center;
     color: #3a3a3a;
+    font-family: lato, sans-serif;
 }
 
 header {
@@ -52,10 +54,12 @@ header {
     text-align: center;
     margin-top: 16px;
     margin-bottom: 6px;
-    color: red;
-    background-color: black;
+    color: #ff0000;
+    background-color: #000000;
     display: block;
     width: 100%;
+    font-weight: 700;
+    padding: 3px 0 3px 0;
 }
 
 /* general rules for  whole container */
@@ -106,7 +110,6 @@ header {
 }
 
 .text-on-image {
-    font-family: lato, sans-serif;
     font-weight: 700;
     color: #000000;
     font-size: 16px;
@@ -125,11 +128,19 @@ header {
     text-align: center;
     text-transform: uppercase;
     margin-top: 16px;
+    font-weight: 700;
+    font-size: 24px;
+    color: #ff0000;
+    background-color: #000000;
+    padding: 3px 0 3px 0;
 
 }
 
 .section2-sub-header {
     text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: 1b263b;
 }
 
 .section2-header-div {
@@ -145,8 +156,16 @@ header {
 
 .text-div h4 {
     font-size: 20px;
+    font-weight: 700;
+    color: 1b263b;
     margin-bottom: 6px;
+}
 
+.text-div p,
+.war-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: 212529;
 }
 
 .section3-div {
@@ -164,19 +183,25 @@ header {
 .section-3 h2 {
     text-align: center;
     text-transform: uppercase;
-    color: rgba(255, 0, 0, 0.623);
+    color: #ff0000;
     margin-bottom: 16px;
     background-color: black;
     border-radius: 9px;
     padding: 6px 0 6px 0;
     margin-top: 6px;
+    font-weight: 700;
 
 }
 
 .war-title {
     text-align: center;
     margin-bottom: 9px;
+    font-size: 20px;
+    font-weight: 700;
+    color: 1b263b;
 }
+
+
 
 .war-div {
     border: 1px solid rgb(160, 27, 27);
@@ -188,17 +213,20 @@ header {
 
 }
 
-.aside {
+.last-section {
     width: 92%;
-    background-color: black;
+    background-color: #000000;
     padding: 12px;
     border-radius: 9px;
     margin-bottom: 16px;
 
 }
 
-.aside p {
-    color: Red;
+.last-section p {
+    color: #ff0000;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1.1;
 
 }
 
@@ -216,19 +244,17 @@ header {
 .section-3 h2 {
     text-align: center;
     text-transform: uppercase;
-    color: rgba(255, 0, 0, 0.623);
+    color: #ff0000;
     margin-bottom: 16px;
-    background-color: black;
+    background-color: #000000;
     border-radius: 9px;
     padding: 6px 0 6px 0;
     margin-top: 6px;
+    font-weight: 700;
 
 }
 
-.war-title {
-    text-align: center;
-    margin-bottom: 9px;
-}
+
 
 .war-div {
     border: 1px solid rgb(160, 27, 27);
