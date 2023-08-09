@@ -1,18 +1,17 @@
 /*  body color :#3a3a3a */
 * {
     margin: 0;
-    padding: 0
-/* general css rules */
+    padding: 0;
+}
+/* general css rules 
+
+color for all h1 elements :0d1b2a;
+color for all h2 elements 1b263b;
+color for p elements : 212529;
+*/
 
 
 /*  background image */
-/* .war-image {
-    width: 100vw;
-    height: 600px;
-    background: url(../images/war\ big.avif ) no-repeat center center;
-    background-size: cover;
-
-} */
 
 .audio-div {
     text-align: Center;
