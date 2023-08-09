@@ -446,6 +446,17 @@ header {
 
 
 @media (min-width:768px) {
+
+    /* home  */
+    .section2-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    /* gallery */
     #images {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -468,9 +479,7 @@ header {
 
     }
 
-    /* .footer {
-            margin-top: 16px;
-        } */
+
 }
 
 @media (min-width: 972px) {
