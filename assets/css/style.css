@@ -511,7 +511,7 @@ header {
 
 @media (min-width: 992px) {
     .war-image {
-        height: 600px;
+        height: 500px;
 
     }
 
@@ -523,6 +523,35 @@ header {
 
     .text-on-image {
         font-size: 26px;
+    }
+
+    #h1,
+    .section2-header,
+    .section3-header {
+        padding: 6px 0 6px 0;
+    }
+
+    .section2-sub-header {
+        font-size: 22px;
+    }
+
+    .text-div h4,
+    .war-title {
+        font-size: 22px;
+    }
+
+    .text-div p,
+    .war-text {
+        font-size: 20px;
+    }
+
+    .last-section {
+        height: 80px;
+        padding: 25px;
+    }
+
+    .last-section p {
+        font-size: 22px;
     }
 
     #images {
@@ -540,5 +569,6 @@ header {
 
     footer {
         width: 100%;
+        margin: 18px 0;
     }
 }
