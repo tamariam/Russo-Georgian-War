@@ -349,14 +349,24 @@ header {
 
 }
 
+/* .contact-form {
+    background-image: url(../images/war-background.jpg);
+    background-size: 100vw;
+    background-position: center;
+    height: 100vh;
 
+} */
 .contact-form {
-    width: 92%;
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    background-image: url("../images/war-background.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+
+}
+
+main {
+    width: 100%;
 }
 
 #details-div {
@@ -420,6 +430,7 @@ header {
 #thank-you-section {
     width: 95vw;
 
+
 }
 
 .thanks-message {
@@ -429,11 +440,27 @@ header {
 
 .thanks-message h1 {
     margin-bottom: 16px;
+    font-size: 20px;
+    color: #1b263b;
+    font-weight: 400;
 
+}
+
+.thanks-message p {
+    font-size: 16px;
+    color: #1b263b;
+    font-weight: 400;
+    letter-spacing: 1.1px;
+}
+
+.thanks-message span {
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 .video-link {
     max-width: 100%;
+    margin: 24px 0 200px 0;
 
 
 
@@ -567,5 +594,21 @@ header {
     footer {
         width: 100%;
         margin: 18px 0;
+    }
+
+    /* feedback html */
+
+    .thanks-message h1 {
+        font-size: 24px;
+
+    }
+
+    .thanks-message p {
+        font-size: 22px;
+
+    }
+
+    .video-link {
+        margin-top: 120px;
     }
 }
