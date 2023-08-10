@@ -411,7 +411,9 @@ label {
 }
 
 .input::placeholder {
-    color: red;
+    color: #ffffff65;
+    font-size: 14px;
+    font-weight: 300;
 }
 
 #select-answer {
