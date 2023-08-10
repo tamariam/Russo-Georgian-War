@@ -482,7 +482,7 @@ textarea::placeholder {
     margin-bottom: 9px;
     color: #ffffff;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .submit {
