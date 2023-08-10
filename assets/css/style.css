@@ -366,7 +366,7 @@ header {
     background-image: url("../images/hands-3460021_1920.jpg");
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    height: 750px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -378,9 +378,9 @@ header {
 #form {
     background-color: rgba(29, 26, 26, 0.5);
     max-width: 400px;
-    height: 74vh;
     padding: 24px;
     border-radius: 9px;
+
 }
 
 #details-div {
@@ -403,6 +403,7 @@ header {
     color: #ffffff;
     font-size: 16px;
     font-weight: 400;
+
 }
 
 label {
@@ -410,6 +411,7 @@ label {
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 6px;
+    margin-left: 4px;
 }
 
 .input::placeholder {
@@ -423,6 +425,7 @@ textarea::placeholder {
     color: #ffffff65;
     font-weight: 700;
 
+
 }
 
 #select-answer {
@@ -430,7 +433,7 @@ textarea::placeholder {
     border-radius: 9px;
     margin: 9px 0;
     width: 95%;
-    background-color: rgba(60, 60, 60, 0.3);
+    background-color: rgba(60, 60, 60, 0.5);
     color: #ffffff;
     font-weight: 300;
     font-size: 16px;
@@ -450,7 +453,8 @@ textarea::placeholder {
 }
 
 .input:hover,
-.feedback:hover {
+.feedback:hover,
+.select-answer:hover {
     border-color: #ff0000;
 }
 
@@ -458,6 +462,7 @@ textarea::placeholder {
     font-size: 16px;
     font-weight: 400;
     color: #ffffff;
+    background-color: rgba(61, 61, 61, 0.3);
 
 }
 
@@ -465,6 +470,7 @@ textarea::placeholder {
 
     width: 95%;
     margin-bottom: 9px;
+    margin-left: 5px;
 }
 
 .radio-input {
@@ -474,6 +480,9 @@ textarea::placeholder {
 
 #form-p {
     margin-bottom: 9px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .submit {
@@ -482,6 +491,10 @@ textarea::placeholder {
     border: 1px solid gray;
     cursor: pointer;
     width: 95%;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #000000;
+    color: red;
 }
 
 /* feedback html */
