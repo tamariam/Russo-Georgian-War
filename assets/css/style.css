@@ -16,6 +16,10 @@ color for p elements : 212529;
     color: #1b263b;
 
 } */
+.active {
+    color: rgba(255, 0, 0, 0.863);
+    border-bottom: 1px solid #3a3a3a;
+}
 
 .margin-bottom {
     margin-bottom: 45px;
