@@ -39,6 +39,7 @@ body {
     justify-content: center;
     color: #3a3a3a;
     font-family: lato, sans-serif;
+
 }
 
 header {
@@ -443,6 +444,7 @@ textarea::placeholder {
 .input {
     padding: 9px 12px;
     border-radius: 9px;
+    border: none;
     border: 1px solid white;
     width: 89%;
     color: white;
@@ -451,6 +453,7 @@ textarea::placeholder {
     background-color: rgba(60, 60, 60, 0.3);
 
 }
+
 
 .input:hover,
 .feedback:hover,
@@ -467,8 +470,10 @@ textarea::placeholder {
 }
 
 .mailing-div {
-
-    width: 95%;
+    border: 1px solid #3a3a3a;
+    padding: 6px;
+    border-radius: 9px;
+    width: 94%;
     margin-bottom: 9px;
     margin-left: 5px;
 }
@@ -490,7 +495,7 @@ textarea::placeholder {
     border-radius: 9px;
     border: 1px solid gray;
     cursor: pointer;
-    width: 95%;
+    width: 100%;
     font-size: 20px;
     font-weight: 700;
     background-color: #000000;
@@ -664,7 +669,7 @@ textarea::placeholder {
 
     footer {
         width: 100%;
-        margin: 18px 0;
+        margin: 10px 0;
     }
 
     /* feedback html */
