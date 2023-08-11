@@ -510,10 +510,10 @@ textarea::placeholder {
 
 /* feedback html */
 .feedback-main {
-    background-image: url("../images/occupied.jpg");
+    background-image: url("../images/war-background.jpg");
     background-size: cover;
     background-position: center;
-    height: 750px;
+    height: 700px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -525,31 +525,26 @@ textarea::placeholder {
 .thanks-message {
     max-width: 100%;
     text-align: center;
+    margin-bottom: 110px;
 }
 
 .thanks-message h1 {
-    margin-bottom: 16px;
     font-size: 24px;
     color: red;
-    font-weight: 300;
+    font-weight: 700;
 
 }
 
-.thanks-message p {
-    font-size: 16px;
-    color: red;
-    font-weight: 400;
-    letter-spacing: 1.1px;
-}
 
 .thanks-message span {
+    color: white;
     text-transform: uppercase;
     font-weight: 700;
 }
 
 .video-link {
     max-width: 97%;
-    margin: 14px 0 150px 0;
+    margin: 14px 0 0 0;
 
 
 
@@ -686,20 +681,23 @@ textarea::placeholder {
     }
 
     /* feedback html */
+    .feedback-main {
+        height: 750px;
+    }
 
     .thanks-message h1 {
         font-size: 24px;
 
-    }
-
-    .thanks-message p {
-        font-size: 22px;
 
     }
+
+
+
+
 
     .video-link {
         max-width: 100%;
-        margin: 70px 0 120px 50%;
+
 
 
     }
