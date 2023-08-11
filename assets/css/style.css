@@ -106,7 +106,7 @@ header {
 }
 
 .menu li {
-    margin: 16px 0 16px 0;
+    margin: 10px 0 10px 0;
 }
 
 .menu a {
@@ -320,7 +320,7 @@ header {
 }
 
 .footer {
-    margin-bottom: 16px;
+    margin-bottom: 10px;
     width: 95%;
     display: flex;
     justify-content: space-around;
@@ -492,14 +492,15 @@ textarea::placeholder {
 
 .submit {
     padding: 9px 12px;
+    border: none;
     border-radius: 9px;
-    border: 1px solid gray;
     cursor: pointer;
     width: 100%;
     font-size: 20px;
     font-weight: 700;
     background-color: #000000;
     color: red;
+    margin-top: 16px;
 }
 
 /* feedback html */
