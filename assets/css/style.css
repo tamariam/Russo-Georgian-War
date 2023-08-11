@@ -16,10 +16,7 @@ color for p elements : 212529;
     color: #1b263b;
 
 } */
-.active {
-    color: rgba(255, 0, 0, 0.863);
-    border-bottom: 1px solid #3a3a3a;
-}
+
 
 .margin-bottom {
     margin-bottom: 45px;
@@ -128,6 +125,10 @@ header {
     color: rgba(255, 0, 0, 0.863);
     border-bottom: 1px solid #3a3a3a;
 
+}
+
+.active {
+    color: aqua;
 }
 
 .section-1 {
@@ -508,8 +509,15 @@ textarea::placeholder {
 }
 
 /* feedback html */
-#thank-you-section {
-    width: 95vw;
+.feedback-main {
+    background-image: url("../images/occupied.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 
 }
@@ -521,15 +529,15 @@ textarea::placeholder {
 
 .thanks-message h1 {
     margin-bottom: 16px;
-    font-size: 20px;
-    color: #1b263b;
-    font-weight: 400;
+    font-size: 24px;
+    color: red;
+    font-weight: 300;
 
 }
 
 .thanks-message p {
     font-size: 16px;
-    color: #1b263b;
+    color: red;
     font-weight: 400;
     letter-spacing: 1.1px;
 }
@@ -540,8 +548,8 @@ textarea::placeholder {
 }
 
 .video-link {
-    max-width: 100%;
-    margin: 24px 0 200px 0;
+    max-width: 97%;
+    margin: 14px 0 150px 0;
 
 
 
@@ -690,6 +698,9 @@ textarea::placeholder {
     }
 
     .video-link {
-        margin-top: 120px;
+        max-width: 100%;
+        margin: 70px 0 120px 50%;
+
+
     }
 }
