@@ -170,7 +170,7 @@
  .war-text {
      font-size: 16px;
      font-weight: 400;
-     color: 212529;
+     color: #212529;
  }
 
  /* section 3 the war */
@@ -227,7 +227,6 @@
      color: #ff0000;
      font-size: 18px;
      font-weight: 400;
-     letter-spacing: 1.1;
  }
 
  /* styling footer */
@@ -470,7 +469,6 @@
      #images {
          display: grid;
          grid-template-columns: 1fr 1fr;
-         grid-template-rows: 5;
          gap: 10px;
          padding: 16px;
          line-height: 0;
