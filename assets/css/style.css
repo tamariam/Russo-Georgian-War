@@ -3,6 +3,13 @@
      margin: 0;
      padding: 0;
  }
+ .margin-bottom {
+     margin-bottom: 45px;
+ }
+
+ .margin-bottom-2 {
+     margin-bottom: 30px;
+ }
 
  /* add style to body  */
  body {
