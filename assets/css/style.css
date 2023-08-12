@@ -1,21 +1,9 @@
- /* general rules */
+ /* general rule*/
  * {
      margin: 0;
      padding: 0;
  }
 
- .margin-bottom {
-     margin-bottom: 45px;
- }
-
- .margin-bottom-2 {
-     margin-bottom: 30px;
- }
-
- /* used colors:
-#3a3a3a
-
- */
  /* add style to body  */
  body {
      display: Flex;
@@ -23,6 +11,15 @@
      justify-content: center;
      color: #3a3a3a;
      font-family: lato, sans-serif;
+ }
+
+ /* general style for  whole container */
+ .container {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
  }
 
  /* HOME */
@@ -39,7 +36,7 @@
      background-position: 7px center;
  }
 
- /*  give styles to first heading named August war */
+ /* give styles to first heading named August war */
  #h1 {
      font-size: 28px;
      letter-spacing: 2px;
@@ -55,15 +52,6 @@
      border-radius: 9px;
  }
 
- /* general style for  whole container */
- .container {
-     width: 100%;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
- }
-
  /* navigation */
  .navigation-bar {
      display: flex;
@@ -77,7 +65,7 @@
  }
 
  .menu li {
-     margin: 10px 0 10px 0;
+     margin: 16px 0 16px 0;
  }
 
  .menu a {
@@ -456,13 +444,16 @@
          grid-gap: 20px;
      }
 
-     .text-div,
-     .war-div {
+     .text-div {
          border-bottom: none;
      }
 
-     .war-div-2 {
-         padding-top: 0;
+     .section-3 {
+         width: 100%;
+     }
+
+     .war-div {
+         border: none;
      }
 
      /* gallery */
@@ -491,7 +482,7 @@
          height: 500px;
      }
 
-     .image-text {
+     .image-text-div {
          width: 400px;
          height: 600px;
          margin-left: 20px;
