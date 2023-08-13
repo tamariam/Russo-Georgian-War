@@ -9,14 +9,12 @@ I have decided to create an informational website on a significant topic for me,
 the full responsive navigation bar includes links to the Home page, Gallery and contact page .
 \_ This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-[navigation bar](docs/screenshots/navigation-bar.png);
-
 ### **Homepage background-image:**
 
 The landing includes a photograph with text on it to allow the user to Create a general overview about what the website is.
 This section introduces the user to website with an eye catching war-image to grab their attention.
 
-[home-image](docs/screenshots/home-image.png);
+[home-image](./docs/screenshots/home-image.png);
 
 ### **Pre-war**
 
