@@ -1,562 +1,560 @@
- /* general rule*/
- * {
-     margin: 0;
-     padding: 0;
- }
-
- .margin-bottom {
-     margin-bottom: 45px;
- }
-
- .margin-bottom-2 {
-     margin-bottom: 30px;
- }
-
- /* add style to body  */
- body {
-     display: Flex;
-     align-items: center;
-     justify-content: center;
-     color: rgb(58, 58, 58);
-     font-family: lato, sans-serif;
- }
-
- /* general style for  whole container */
- .container {
-     width: 100%;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
- }
-
- /* HOME */
- header {
-     width: 95%;
- }
-
- /*  background image */
- .war-image {
-     width: 94vw;
-     height: 300px;
-     background: url(../images/war-big.avif ) no-repeat center center;
-     background-size: cover;
-     background-position: 7px center;
- }
-
- /* give styles to first heading named August war */
- #h1 {
-     font-size: 28px;
-     letter-spacing: 2px;
-     text-align: center;
-     margin-top: 16px;
-     margin-bottom: 6px;
-     color: #ff0000;
-     background-color: #000000;
-     display: block;
-     width: 100%;
-     font-weight: 700;
-     padding: 3px 0 3px 0;
-     border-radius: 9px;
- }
-
- /* navigation */
- .navigation-bar {
-     display: flex;
-     justify-content: center;
- }
-
- .menu {
-     list-style-type: none;
-     display: flex;
-     justify-content: space-between;
- }
-
- .menu li {
-     margin: 16px 0 16px 0;
- }
-
- .menu a {
-     text-decoration: none;
-     color: #1b263b;
-     font-size: 18px;
-     font-weight: 700;
-     cursor: pointer;
-     padding: 10px;
-     margin-bottom: 16px;
-     text-transform: uppercase;
- }
-
- .menu a:hover {
-     color: rgba(255, 0, 0, 0.863);
-     border-bottom: 1px solid #3a3a3a;
- }
-
- /* background image with text */
- .section-1 {
-     position: relative;
- }
-
- .image-text-div {
-     width: 200px;
-     height: 200px;
-     letter-spacing: 2px;
-     position: absolute;
-     top: 15px;
-     left: 15px;
- }
-
- .text-on-image {
-     font-weight: 700;
-     color: #000000;
-     font-size: 16px;
- }
-
- /* section-2 pre-war situations */
- .section2-div {
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: start;
- }
-
- /* styling section 2 header named pre war */
- .section2-header-div {
-     margin-bottom: 16px;
- }
-
- .section2-header {
-     text-align: center;
-     text-transform: uppercase;
-     margin: 16px auto;
-     font-weight: 700;
-     font-size: 24px;
-     color: #ff0000;
-     background-color: #000000;
-     padding: 5px 0 5px 0;
-     width: 95%;
-     border-radius: 9px;
- }
-
- .section2-sub-header {
-     margin-top: 12px;
-     text-align: center;
-     font-size: 20px;
-     font-weight: 400;
-     color: #1b263b;
-
- }
-
- /* styling texts and headers for seciont-2 */
- .text-div {
-     width: 90%;
-     border-bottom: 1px solid #a01b1b;
-     padding: 10px;
-     margin-bottom: 12px;
- }
-
- .text-div h4 {
-     font-size: 20px;
-     font-weight: 700;
-     color: #1b263b;
-     margin-bottom: 6px;
- }
-
- .text-div p,
- .war-text {
-     font-size: 16px;
-     font-weight: 400;
-     color: #212529;
- }
-
- /* section 3 the war */
- .section-3 {
-     width: 95%;
-     margin-bottom: 16px;
- }
-
- .section3-div {
-     display: flex;
-     flex-direction: column;
-     align-items: start;
-     row-gap: 16px;
- }
-
- .section-3 h2 {
-     text-align: center;
-     text-transform: uppercase;
-     color: #ff0000;
-     background-color: #000000;
-     border-radius: 9px;
-     padding: 6px 0 6px 0;
-     margin: 6px auto 16px auto;
-     font-weight: 700;
-     width: 95%;
- }
-
- .war-title {
-     text-align: center;
-     margin-bottom: 9px;
-     font-size: 20px;
-     font-weight: 700;
-     color: #1b263b;
- }
-
- .war-div {
-     border: 1px solid rgb(160, 27, 27);
-     padding: 6px;
-     border-radius: 9px;
-     padding: 12px 6px 9px 12px;
-     width: 95%;
- }
-
- /* styling last section */
- .last-section {
-     width: 92%;
-     background-color: #000000;
-     padding: 12px;
-     border-radius: 9px;
-     margin-bottom: 16px;
- }
-
- .last-section h3 {
-     color: #ff0000;
-     font-size: 18px;
-     font-weight: 400;
- }
-
- /* styling footer */
- .footer {
-     margin-bottom: 10px;
-     width: 95%;
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
-     padding: 9px 0 9px 0;
- }
-
- .link {
-     cursor: pointer;
-     color: #000000;
-     transition: color 0.3s;
- }
-
- .link:hover {
-     color: rgb(245, 58, 58);
- }
-
- /* gallery page */
- .audio-div {
-     text-align: Center;
-     margin-top: 12px;
- }
-
- /* stying images */
- #images {
-     line-height: 0;
-     margin: 26px auto;
-     width: 95vw;
- }
-
- #images img {
-     width: 100%;
-     line-height: 6px;
- }
-
- /* contact html */
- /* add  background photo to page */
- .contact-form {
-     background-image: url("../images/hands-3460021_1920.jpg");
-     background-size: cover;
-     background-position: center;
-     height: 750px;
-     width: 100%;
-     display: flex;
-     justify-content: center;
-     align-items: center
- }
-
- #form {
-     background-color: #1d1a1a80;
-     max-width: 400px;
-     padding: 24px;
-     border-radius: 9px;
- }
-
- #form-p {
-     margin-bottom: 9px;
-     color: #ffffff;
-     font-size: 18px;
-     font-weight: 400;
- }
-
- /* give style to name and email div */
- #details-div {
-     padding: 9px 0;
-     display: Flex;
-     flex-direction: column;
-     margin-bottom: 9px;
-     width: 100%;
- }
-
- label {
-     color: #ffffff;
-     font-size: 18px;
-     font-weight: 400;
-     margin-bottom: 6px;
-     margin-left: 4px;
- }
-
- .input {
-     padding: 9px 12px;
-     border-radius: 9px;
-     border: none;
-     border: 1px solid white;
-     width: 89%;
-     color: white;
-     font-size: 16px;
-     font-weight: 400;
-     background-color: rgba(60, 60, 60, 0.3);
-     outline: none;
- }
-
- .input:hover,
- .feedback:hover,
- .select-answer:hover {
-     border-color: #ff0000;
- }
-
- .input::placeholder {
-     color: #ffffff65;
-     font-size: 14px;
-     font-weight: 300;
- }
-
- /* styling feedback area  */
- .feedback {
-     width: 95%;
-     height: 25vh;
-     resize: both;
-     overflow: auto;
-     border-radius: 9px;
-     margin-bottom: 9px;
-     background-color: rgba(60, 60, 60, 0.2);
-     border: 1px solid #ffffff;
-     color: #ffffff;
-     font-size: 16px;
-     font-weight: 400;
-     outline: none;
- }
-
- textarea::placeholder {
-     font-size: 16px;
-     color: #ffffff65;
-     font-weight: 700;
- }
-
- /* styling dropdown menu */
- #select-answer {
-     padding: 6px 9px;
-     border-radius: 9px;
-     margin: 9px 0;
-     width: 95%;
-     background-color: rgba(60, 60, 60, 0.5);
-     color: #ffffff;
-     font-weight: 300;
-     font-size: 16px;
-     outline: none;
- }
-
- .option {
-     font-size: 16px;
-     font-weight: 400;
-     color: #ffffff;
-     background-color: rgba(61, 61, 61, 0.3);
- }
-
- /* give styles to  radio elements */
- .mailing-div {
-     border: 1px solid rgb(58, 58, 58);
-     padding: 6px;
-     border-radius: 9px;
-     width: 94%;
-     margin-bottom: 9px;
-     margin-left: 5px;
- }
-
- .radio-input {
-     margin-bottom: 9px;
- }
-
- /* styilingsubmit btn */
- .submit {
-     padding: 9px 12px;
-     border: none;
-     border-radius: 9px;
-     cursor: pointer;
-     width: 100%;
-     font-size: 20px;
-     font-weight: 700;
-     background-color: #000000;
-     color: red;
-     margin-top: 16px;
- }
-
- /* feedback html */
- .feedback-main {
-     background-image: url("../images/war-background.jpg");
-     background-size: cover;
-     background-position: center;
-     height: 700px;
-     width: 100%;
-     display: flex;
-     justify-content: center;
-     align-items: center;
- }
-
- .thanks-message {
-     max-width: 100%;
-     text-align: center;
-     margin-bottom: 110px;
- }
-
- .thanks-message h2 {
-     text-transform: uppercase;
-     font-size: 24px;
-     color: red;
-     font-weight: 700;
- }
-
- .video-link {
-     max-width: 97%;
-     margin: 14px 0 0 0;
- }
-
- .video {
-     text-align: center;
-     margin-top: 16px;
- }
-
- /* media queris */
- /* for tablets */
- @media (min-width:768px) {
-
-     /* home  */
-     .section2-div,
-     .section3-div {
-         display: grid;
-         grid-template-columns: 1fr 1fr;
-         grid-template-rows: 1fr 1fr 1fr;
-         width: 95%;
-         margin: 0 auto;
-         grid-gap: 20px;
-     }
-
-     .text-div {
-         border-bottom: none;
-     }
-
-     .section-3 {
-         width: 100%;
-     }
-
-     .war-div {
-         border: none;
-     }
-
-     /* gallery */
-     #images {
-         display: grid;
-         grid-template-columns: 1fr 1fr;
-         gap: 10px;
-         padding: 16px;
-         line-height: 0;
-     }
-
-     #images img {
-         border-radius: 5px;
-         height: 205px;
-         transition: all 0.4s;
-     }
-
-     #images img:hover {
-         transform: scale(1.05);
-     }
- }
-
- /* for desktops */
- @media (min-width: 992px) {
-     .war-image {
-         height: 500px;
-     }
-
-     .image-text-div {
-         width: 400px;
-         height: 600px;
-         margin-left: 20px;
-     }
-
-     .text-on-image {
-         font-size: 26px;
-     }
-
-     #h1,
-     .section2-header,
-     .section3-header {
-         padding: 6px 0 6px 0;
-     }
-
-     .section2-sub-header {
-         font-size: 22px;
-     }
-
-     .text-div h4,
-     .war-title {
-         font-size: 22px;
-     }
-
-     .text-div p,
-     .war-text {
-         font-size: 20px;
-     }
-
-     .last-section {
-         height: 80px;
-         padding: 25px;
-     }
-
-     .last-section h3 {
-         font-size: 22px;
-     }
-
-     /* gallery */
-     #images {
-         display: grid;
-         grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
-         grid-gap: 10px;
-     }
-
-     #images img {
-         max-width: 100%;
-         height: 100%;
-         object-fit: cover;
-     }
-
-     footer {
-         width: 100%;
-         margin: 10px 0;
-     }
-
-     /* feedback html */
-     .feedback-main {
-         height: 750px;
-     }
-
-     .thanks-message h2 {
-         font-size: 24px;
-     }
-
-     .video-link {
-         max-width: 100%;
-     }
- }
+/* general rule*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* add style to body  */
+body {
+    display: Flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(58, 58, 58);
+    font-family: lato, sans-serif;
+}
+
+/* general style for  whole container */
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* HOME */
+header {
+    width: 95%;
+}
+
+/*  background image */
+.war-image {
+    width: 94vw;
+    height: 300px;
+    background: url(../images/war-big.avif ) no-repeat center center;
+    background-size: cover;
+    background-position: 7px center;
+}
+
+/* give styles to first heading named August war */
+#h1 {
+    font-size: 28px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 6px;
+    color: #ff0000;
+    background-color: #000000;
+    display: block;
+    width: 100%;
+    font-weight: 700;
+    padding: 3px 0 3px 0;
+    border-radius: 9px;
+}
+
+/* navigation */
+.navigation-bar {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li {
+    margin: 16px 0 16px 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+.menu a:hover {
+    color: rgba(255, 0, 0, 0.863);
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* background image with text */
+.section-1 {
+    position: relative;
+}
+
+.image-text-div {
+    width: 200px;
+    height: 200px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.text-on-image {
+    font-weight: 700;
+    color: #000000;
+    font-size: 16px;
+}
+
+/* section-2 pre-war situations */
+.section2-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+/* styling section 2 header named pre war */
+.section2-header-div {
+    margin-bottom: 16px;
+}
+
+.section2-header {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 16px auto;
+    font-weight: 700;
+    font-size: 24px;
+    color: #ff0000;
+    background-color: #000000;
+    padding: 5px 0 5px 0;
+    width: 95%;
+    border-radius: 9px;
+}
+
+.section2-sub-header {
+    margin-top: 12px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: #1b263b;
+
+}
+
+/* styling texts and headers for seciont-2 */
+.text-div {
+    width: 90%;
+    border-bottom: 1px solid #a01b1b;
+    padding: 10px;
+    margin-bottom: 12px;
+}
+
+.text-div h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1b263b;
+    margin-bottom: 6px;
+}
+
+.text-div p,
+.war-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #212529;
+}
+
+/* section 3 the war */
+.section-3 {
+    width: 95%;
+    margin-bottom: 16px;
+}
+
+.section3-div {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 16px;
+}
+
+.section-3 h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #ff0000;
+    background-color: #000000;
+    border-radius: 9px;
+    padding: 6px 0 6px 0;
+    margin: 6px auto 16px auto;
+    font-weight: 700;
+    width: 95%;
+}
+
+.war-title {
+    text-align: center;
+    margin-bottom: 9px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1b263b;
+}
+
+.war-div {
+    border: 1px solid rgb(160, 27, 27);
+    padding: 6px;
+    border-radius: 9px;
+    padding: 12px 6px 9px 12px;
+    width: 95%;
+}
+
+/* styling last section */
+.last-section {
+    width: 92%;
+    background-color: #000000;
+    padding: 12px;
+    border-radius: 9px;
+    margin-bottom: 16px;
+}
+
+.last-section h3 {
+    color: #ff0000;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* styling footer */
+.footer {
+    font-size: 18px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px 0 9px 0;
+    margin-bottom: 16px;
+}
+
+.link {
+    cursor: pointer;
+    color: #000000;
+    transition: color 0.3s;
+}
+
+.link:hover {
+    color: rgb(245, 58, 58);
+}
+
+/* gallery page */
+.audio-div {
+    text-align: Center;
+    margin-top: 12px;
+}
+
+/* stying images */
+#images {
+    line-height: 0;
+    margin: 26px auto;
+    width: 95vw;
+}
+
+#images img {
+    width: 100%;
+    line-height: 6px;
+}
+
+/* contact html */
+/* add  background photo to page */
+.contact-form {
+    background-image: url("../images/hands-3460021_1920.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 16px;
+}
+
+#form {
+    background-color: #1d1a1a80;
+    max-width: 400px;
+    padding: 14px;
+    border-radius: 9px;
+}
+
+#form-p {
+    margin-bottom: 9px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* give style to name and email div */
+#details-div {
+    padding: 9px 0;
+    display: Flex;
+    flex-direction: column;
+    margin-bottom: 9px;
+    width: 100%;
+}
+
+label {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 6px;
+    margin-left: 4px;
+}
+
+.input {
+    padding: 9px 12px;
+    border-radius: 9px;
+    border: none;
+    border: 1px solid white;
+    width: 89%;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: rgba(60, 60, 60, 0.3);
+    outline: none;
+}
+
+.input:hover,
+.feedback:hover,
+.select-answer:hover {
+    border-color: #ff0000;
+}
+
+.input::placeholder {
+    color: #ffffff65;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* styling feedback area  */
+.feedback {
+    width: 95%;
+    height: 25vh;
+    resize: both;
+    overflow: auto;
+    border-radius: 9px;
+    margin-bottom: 9px;
+    background-color: rgba(60, 60, 60, 0.2);
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    outline: none;
+}
+
+textarea::placeholder {
+    font-size: 16px;
+    color: #ffffff65;
+    font-weight: 700;
+}
+
+/* styling dropdown menu */
+#select-answer {
+    padding: 6px 9px;
+    border-radius: 9px;
+    margin: 9px 0;
+    width: 95%;
+    background-color: rgba(60, 60, 60, 0.5);
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 16px;
+    outline: none;
+}
+
+.option {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: rgba(61, 61, 61, 0.3);
+}
+
+/* give styles to  radio elements */
+.mailing-div {
+    border: 1px solid rgb(58, 58, 58);
+    padding: 6px;
+    border-radius: 9px;
+    width: 94%;
+    margin-bottom: 9px;
+    margin-left: 5px;
+}
+
+.radio-input {
+    margin-bottom: 9px;
+}
+
+/* styilingsubmit btn */
+.submit {
+    padding: 9px 12px;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #000000;
+    color: red;
+    margin-top: 16px;
+}
+
+/* feedback html */
+.feedback-main {
+    background-image: url("../images/war-background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thanks-message {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+.thanks-message h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: red;
+    font-weight: 700;
+}
+
+.video-link {
+    max-width: 97%;
+    margin: 14px 0 0 0;
+}
+
+.video {
+    text-align: center;
+    margin-top: 16px;
+}
+
+/* media queris */
+/* for tablets */
+@media (min-width:768px) {
+
+    /* home  */
+    .section2-div,
+    .section3-div {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 95%;
+        margin: 0 auto;
+        grid-gap: 20px;
+    }
+
+    .text-div {
+        border-bottom: none;
+    }
+
+    .section-3 {
+        width: 100%;
+    }
+
+    .war-div {
+        border: none;
+    }
+
+    /* gallery */
+    #images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        padding: 16px;
+        line-height: 0;
+    }
+
+    #images img {
+        border-radius: 5px;
+        height: 205px;
+        transition: all 0.4s;
+    }
+
+    #images img:hover {
+        transform: scale(1.05);
+    }
+}
+
+/* for desktops */
+@media (min-width: 992px) {
+    .war-image {
+        height: 500px;
+    }
+
+    .image-text-div {
+        width: 400px;
+        height: 600px;
+        margin-left: 20px;
+    }
+
+    .text-on-image {
+        font-size: 26px;
+    }
+
+    #h1,
+    .section2-header,
+    .section3-header {
+        padding: 6px 0 6px 0;
+    }
+
+    .section2-sub-header {
+        font-size: 22px;
+    }
+
+    .text-div h4,
+    .war-title {
+        font-size: 22px;
+    }
+
+    .text-div p,
+    .war-text {
+        font-size: 20px;
+    }
+
+    .last-section {
+        height: 80px;
+        padding: 25px;
+    }
+
+    .last-section h3 {
+        font-size: 22px;
+    }
+
+    /* gallery */
+    #images {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+        grid-gap: 10px;
+    }
+
+    #images img {
+        max-width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    footer {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    /* feedback html */
+    .feedback-main {
+        height: 750px;
+    }
+
+    .thanks-message h2 {
+        font-size: 24px;
+    }
+
+    .video-link {
+        max-width: 100%;
+    }
+
+    .footer {
+        font-size: 24px;
+    }
+}
