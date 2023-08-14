@@ -1,4 +1,5 @@
 # **Russo-Georgian war**
+![responsive-image](./docs/screenshots/)
 
 ## TABLE OF CONTENTS
 
