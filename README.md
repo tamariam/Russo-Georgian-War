@@ -1,5 +1,5 @@
 # **Russo-Georgian war**
-![responsive-image](./docs/screenshots/)
+![responsive-image!](./docs/screenshots/responsive.png)
 
 ## TABLE OF CONTENTS
 
