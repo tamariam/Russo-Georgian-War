@@ -1,23 +1,5 @@
 # **Russo-Georgian war**
 ![responsive-image!](./docs/screenshots/responsive.png)
-
-## TABLE OF CONTENTS
-
-- [Introduction](#Introduction)
-- [navigation-bar](#Navigation-Bar)
-- [Homepage-image](#Homepage-image)
-- [Pre-war](#Pre-war)
-- [war](#War)
-- [last-section](#Last-Section)
-- [Footer](#Footer)
-- [Gallery-page](#Gallery-Page)
-- [Contact-Page](#Contact-Page)
-- [Feedback-Page](#Feedback-Page)
-- [Testing](#Testing)
-- [validator-testing](#Validatot-Testing)
-- [Deployment](#Deployment)
-- [content](#content) -[Media](#Media)
-
 ## Introduction
 
 I have decided to create an informational website on a significant topic for me, in order to provide more people with information about the events in Georgia during the 2008 war. The website is also named appropriately: russo-georgian-war.The site will be targeted toward people who are interested to get relevant itformation about this war.
@@ -30,7 +12,7 @@ the full responsive navigation bar includes links to the Home page, Gallery and 
 This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 ![navigation-bar!](./docs/screenshots/navigation-bar.png)
 
-### **Homepage-image**
+### **Hero-image**
 
 The landing includes a photograph with text on it to allow the user to Create a general overview about what the website is.
 This section introduces the user to website with an eye catching war-image to grab their attention.
@@ -77,6 +59,7 @@ this site contains thanks message for user for submiting feedback and also let u
 
 ## **Testing**
 
+
 ## **Validator Testing**
 
 - HTML-No errors were returned when passing through the official W3C validator.
@@ -98,8 +81,9 @@ The live link can be found here - https://tamariam.github.io/Russo-Georgian-War/
 - The text for the Home page was taken from [Russo-Georgian War Wikipedia Article](https://en.wikipedia.org/wiki/Russo-Georgian_War)
 - Instructions on how to implement hover effect on images on bigger screen sizes took from Jonas schmedtman privat course from [jonas schmedtman udemy privat courses](https://www.udemy.com/)
 - The icons in the footer were taken from [fontawasome](https://fontawesome.com/.)
+- fonts imported from - [Google fonts](https://fonts.google.com/)
 
 ## **Media**
 
 - The photos used on the home contact and feedback page are from This [random-war-pictures](https://pixabay.com/images/search/war/) site.
-- The images used for the gallery page were taken from [google picures](https://www.google.com/search?sca_esv=556766949&sxsrf=AB5stBgiZCiA-vW2bX-Gk4x-l7wgnilWAQ:1692024454398&q=russo+georgian+war&tbm=isch&source=lnms&sa=X&ved=2ahUKEwj0wbikstyAAxWMXUEAHdgICyMQ0pQJegQICxAB&biw=1920&bih=923&dpr=1)this site.
+- The images used for the gallery page were taken from [google picures](https://www.google.com/search?sca_esv=556766949&sxsrf=AB5stBgiZCiA-vW2bX-Gk4x-l7wgnilWAQ:1692024454398&q=russo+georgian+war&tbm=isch&source=lnms&sa=X&ved=2ahUKEwj0wbikstyAAxWMXUEAHdgICyMQ0pQJegQICxAB&biw=1920&bih=923&dpr=1) site.
