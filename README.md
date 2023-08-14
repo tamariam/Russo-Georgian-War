@@ -75,11 +75,11 @@ The live link can be found here - https://tamariam.github.io/Russo-Georgian-War/
 
 ## **Content**
 
-The text for the Home page was taken from [Russo-Georgian War Wikipedia Article](https://en.wikipedia.org/wiki/Russo-Georgian_War)
-Instructions on how to implement hover effect on images on bigger screen sizes took from Jonas schmedtman privat course from [jonas schmedtman udemy courses](https://www.udemy.com/?utm_source=bing-brand&utm_medium=udemyads&utm_campaign=BG-Brand-Udemy_la.EN_cc.ROW&utm_term=_._ag_1219358808134939_._ad__._de_c_._dm__._pl__._ti_kwd-76210237821153_._li_150385_._pd__._&utm_term=_._pd__._kw_udemy%20com%2B_._&matchtype=e&msclkid=f904315afd0f163b581f5580c0ef0534)
-The icons in the footer were taken from [fontawasome](https://fontawesome.com/.)
+- The text for the Home page was taken from [Russo-Georgian War Wikipedia Article](https://en.wikipedia.org/wiki/Russo-Georgian_War)
+- Instructions on how to implement hover effect on images on bigger screen sizes took from Jonas schmedtman privat course from [jonas schmedtman udemy privat courses](https://www.udemy.com/)
+- The icons in the footer were taken from [fontawasome](https://fontawesome.com/.)
 
 ## **Media**
 
-The photos used on the home contact and feedback page are from This [random-war-pictures](https://pixabay.com/images/search/war/) site
-The images used for the gallery page were taken from [google picures](https://www.google.com/search?sca_esv=556766949&sxsrf=AB5stBgiZCiA-vW2bX-Gk4x-l7wgnilWAQ:1692024454398&q=russo+georgian+war&tbm=isch&source=lnms&sa=X&ved=2ahUKEwj0wbikstyAAxWMXUEAHdgICyMQ0pQJegQICxAB&biw=1920&bih=923&dpr=1)this site.
+- The photos used on the home contact and feedback page are from This [random-war-pictures](https://pixabay.com/images/search/war/) site.
+- The images used for the gallery page were taken from [google picures](https://www.google.com/search?sca_esv=556766949&sxsrf=AB5stBgiZCiA-vW2bX-Gk4x-l7wgnilWAQ:1692024454398&q=russo+georgian+war&tbm=isch&source=lnms&sa=X&ved=2ahUKEwj0wbikstyAAxWMXUEAHdgICyMQ0pQJegQICxAB&biw=1920&bih=923&dpr=1)this site.
