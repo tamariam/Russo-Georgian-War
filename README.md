@@ -14,7 +14,7 @@ the full responsive navigation bar includes links to the Home page, Gallery and 
 The landing includes a photograph with text on it to allow the user to Create a general overview about what the website is.
 This section introduces the user to website with an eye catching war-image to grab their attention.
 
-[home-image](./docs/screenshots/home-image.png);
+![home-image!](./docs/screenshots/home-image.png);
 
 ### **Pre-war**
 
@@ -58,19 +58,18 @@ this site contains thanks message for user for submiting feedback and also let u
 
 ## **Validator Testing**
 
-HTML
-No errors were returned when passing through the official W3C validator.
-CSS
-No errors were found when passing through the official (Jigsaw) validator.
-
-## **Unfixed Bags**
+HTML-No errors were returned when passing through the official W3C validator.
+CSS-No errors were found when passing through the official (Jigsaw) validator.
 
 ## **Deployment**
 
 The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Master Branch
-Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+1. In the GitHub repository, go to the Settings tab.(which locates at top right of the repository)
+2. scroll down to the github pages section.
+3. we select the branch in the source section.(main) and save it.
+4. In few moments the page will be automatically refreshed and will generate a URL .
+
 The live link can be found here - https://tamariam.github.io/Russo-Georgian-War/
 
 ## **Content**
