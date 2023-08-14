@@ -1,8 +1,28 @@
 # **Russo-Georgian war**
 
+## TABLE OF CONTENTS
+
+- [Introduction](#Introduction)
+- [Features](#Features)
+ - [navigation-bar](#Navigation Bar)
+ - [Homepage-image](#Homepage-image)
+ - [Pre-war](#Pre-war)
+ - [war](#War)
+ - [last-section](#Last Section)
+ - [Footer](#Footer)
+ - [Gallery-page](#Gallery Page)
+ - [Contact-Page](#Contact Page)
+ - [Feedback-Page](#Feedback Page)
+- [Testing](#Testing)
+- [validator-testing](#Validatot Testing)
+- [Deployment](#Deployment)
+- [content](#content) -[Media](#Media)
+
+## Introduction
+
 I have decided to create an informational website on a significant topic for me, in order to provide more people with information about the events in Georgia during the 2008 war. The website is also named appropriately: russo-georgian-war.The site will be targeted toward people who are interested to get relevant itformation about this war.
 
-## **Features**
+### Features
 
 ### **Navigation Bar**
 
@@ -10,7 +30,7 @@ the full responsive navigation bar includes links to the Home page, Gallery and 
 This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 ![navigation-bar!](./docs/screenshots/navigation-bar.png)
 
-### **Homepage background-image:**
+### **Homepage-image**
 
 The landing includes a photograph with text on it to allow the user to Create a general overview about what the website is.
 This section introduces the user to website with an eye catching war-image to grab their attention.
@@ -44,7 +64,7 @@ The footer is valuable to the user as it encourages them to get more information
 The gallery will provide the user with images captured during the August war and also While viewing the images, listen to music if they want.
 This section is valuable to the user as they will have more realistic imagination about the war.
 
-### **contact Page**
+### **Contact Page**
 
 This page will allow the user to send their feelings and impressions about the information they get ,Express their thoughts about the war. Also The user will be able specify if they would like to get more infomation about the war or not. The user will be asked to submit their full name and email address..
 ![contact-page!](docs/screenshots/contact.png)
