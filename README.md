@@ -7,7 +7,8 @@ I have decided to create an informational website on a significant topic for me,
 ### **Navigation Bar**
 
 the full responsive navigation bar includes links to the Home page, Gallery and contact page .
-\_ This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+![navigation-bar!](./docs/screenshots/navigation-bar.png)
 
 ### **Homepage background-image:**
 
@@ -36,7 +37,7 @@ This section gives to the user an overview of the situation following a conflict
 
 The footer section includes links to the relevant sites for this.(its wikipedia, google and youtube). The links will open to a new tab to allow easy navigation for the user.
 The footer is valuable to the user as it encourages them to get more information about August-war.
-![footer!](docs/screenshots/footer.png);
+![footer!](docs/screenshots/footer.png)
 
 ### **Gallery Page**
 
@@ -46,13 +47,13 @@ This section is valuable to the user as they will have more realistic imaginatio
 ### **contact Page**
 
 This page will allow the user to send their feelings and impressions about the information they get ,Express their thoughts about the war. Also The user will be able specify if they would like to get more infomation about the war or not. The user will be asked to submit their full name and email address..
-![contact-page!](docs/screenshots/contact.png);
+![contact-page!](docs/screenshots/contact.png)
 
 ### **Feedback Page**
 
 After submiting infotmation from contact page another feedback page will open .
 this site contains thanks message for user for submiting feedback and also let user to watch youtube video about Russo-georgian war.both submit and feedback pages have eye-catching bakcgdound images.
-![feedback page !](docs/screenshots/feedback.png);
+![feedback page !](docs/screenshots/feedback.png)
 
 ## **Testing**
 
@@ -74,11 +75,11 @@ The live link can be found here - https://tamariam.github.io/Russo-Georgian-War/
 
 ## **Content**
 
-The text for the Home page was taken from Wikipedia Article A
-Instructions on how to implement form validation on the Sign Up page was taken from Specific YouTube Tutorial
-The icons in the footer were taken from Font Awesome.
+The text for the Home page was taken from https://en.wikipedia.org/wiki/Russo-Georgian_War
+Instructions on how to implement hover effect on images on bigger screen sizes took from Jonas schmedtman privat course from https://www.udemy.com/?utm_source=bing-brand&utm_medium=udemyads&utm_campaign=BG-Brand-Udemy_la.EN_cc.ROW&utm_term=_._ag_1219358808134939_._ad__._de_c_._dm__._pl__._ti_kwd-76210237821153_._li_150385_._pd__._&utm_term=_._pd__._kw_udemy%20com%2B_._&matchtype=e&msclkid=f904315afd0f163b581f5580c0ef0534
+The icons in the footer were taken from https://fontawesome.com/.
 
 ## **Media**
 
-The photos used on the home and sign up page are from This Open Source site
-The images used for the gallery page were taken from this other open source site
+The photos used on the home contact and feedback page are from This https://pixabay.com/images/search/war/ site
+The images used for the gallery page were taken from https://www.google.com/search?sca_esv=556766949&sxsrf=AB5stBgiZCiA-vW2bX-Gk4x-l7wgnilWAQ:1692024454398&q=russo+georgian+war&tbm=isch&source=lnms&sa=X&ved=2ahUKEwj0wbikstyAAxWMXUEAHdgICyMQ0pQJegQICxAB&biw=1920&bih=923&dpr=1 this site.
