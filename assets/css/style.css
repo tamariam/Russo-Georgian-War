@@ -260,7 +260,7 @@ header {
 /* contact html */
 /* add  background photo to page */
 .contact-form {
-    background-image: url("../images/hands-3460021_1920.jpg");
+    background-image: url("../images/hands.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
