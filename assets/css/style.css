@@ -253,7 +253,7 @@ header {
 }
 
 #images img {
-    width: 360px;
+    width: 100%;
     height: 240px;
     line-height: 6px;
 }
