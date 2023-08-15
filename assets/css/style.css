@@ -423,14 +423,13 @@ textarea::placeholder {
     font-weight: 700;
 }
 
-.video-link {
-    max-width: 97%;
-    margin: 14px 0 0 0;
-}
-
 .video {
     text-align: center;
     margin-top: 16px;
+}
+
+.youtube-screen {
+    width: 97%;
 }
 
 /* media queris */
