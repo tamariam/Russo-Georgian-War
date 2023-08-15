@@ -31,7 +31,7 @@ header {
 .war-image {
     width: 94vw;
     height: 300px;
-    background: url(../images/war-compressed.png ) no-repeat center center;
+    background: url(../images/war-medium.avif ) no-repeat center center;
     background-size: cover;
     background-position: 7px center;
 }
