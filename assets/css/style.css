@@ -253,9 +253,8 @@ header {
 }
 
 #images img {
-    width: 450px;
+    width: 100%;
     line-height: 6px;
-    height: 382px;
 }
 
 /* contact html */
@@ -381,6 +380,8 @@ textarea::placeholder {
 
 .radio-input {
     margin-bottom: 9px;
+    width: 18px;
+    height: 18px;
 }
 
 /* styilingsubmit btn */
