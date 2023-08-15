@@ -430,6 +430,7 @@ textarea::placeholder {
 
 .youtube-screen {
     width: 97%;
+    height:350px;
 }
 
 /* media queris */
