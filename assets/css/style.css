@@ -400,11 +400,9 @@ textarea::placeholder {
 
 /* feedback html */
 .feedback-main {
-    background-image: url("../images/feedback-background.avif");
-    background-size: cover;
-    background-position: center;
-    height: 700px;
-    width: 100%;
+    background-color: #000000;
+    height: 100vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -430,7 +428,7 @@ textarea::placeholder {
 
 .youtube-screen {
     width: 97%;
-    height:350px;
+    height: 315px;
 }
 
 /* media queris */
