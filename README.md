@@ -111,6 +111,9 @@ When I was testing my project, I noticed a few bugs:
 
 - HTML-No errors were found when passing through the official W3C validator.
 - CSS-No errors were found when passing through the official (Jigsaw) validator.
+- I confirm that colors and fonts are checked through lighthouse testing and they are easy to read and accesible.
+  ![lighthouse-testing mobile!](./docs/screenshots/lighehouse-home-mobile.png)  
+  ![lighthouse-testing mobile!](./docs/screenshots/screen-home-desktop.png)
 
 ## Design
 
