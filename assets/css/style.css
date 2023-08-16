@@ -466,10 +466,6 @@ textarea::placeholder {
         transform: scale(1.05);
     }
 
-    #images img:hover {
-        transform: scale(1.05);
-    }
-
     /*media queries for desktops */
     @media (min-width: 992px) {
         .war-image {

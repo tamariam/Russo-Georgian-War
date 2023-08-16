@@ -87,7 +87,7 @@ this site contains thanks message for user for submiting feedback and also let u
 
 - I checked this project using DevTools' device toolbar and confirmed that it looks responsive on all screen types.
 - all sections are readeble and easy to understand.
-- The site works in different browsers:Microsoft edge,Firefox,Chrome,Safari.
+- The site works in different browsers:Firefox,Chrome,Safari.
 - I tested that you can play music on gallery page.
 - i Tested that youtube video link works on feedback page.
 - I confirm that contact form works without eny problem.
