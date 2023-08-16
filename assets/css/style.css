@@ -245,7 +245,7 @@ header {
 }
 
 /* stying images */
-#images {
+/* #images {
     line-height: 0;
     margin: 26px auto;
     width: 95vw;
@@ -255,6 +255,20 @@ header {
 #images img {
     width: 100%;
     line-height: 6px;
+} */
+#images {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+    grid-gap: 10px;
+
+}
+
+#images img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
 }
 
 /* contact html */
@@ -459,7 +473,7 @@ textarea::placeholder {
     }
 
     /* gallery */
-    #images {
+    /* #images {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 10px;
@@ -471,11 +485,25 @@ textarea::placeholder {
         border-radius: 5px;
         height: 205px;
         transition: all 0.4s;
-    }
+    } 
 
     #images img:hover {
         transform: scale(1.05);
     }
+/* /* }  */
+    #images {
+        /* display: grid; */
+        grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+        /* grid-gap: 10px; */
+    }
+
+    /* #images img {
+        max-width: 100%;
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    } */
 }
 
 /* for desktops */
@@ -523,18 +551,17 @@ textarea::placeholder {
         font-size: 22px;
     }
 
-    /* gallery */
-    #images {
-        display: grid;
+    gallery */ #images {
+        /* display: grid; */
         grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
-        grid-gap: 10px;
+        /* grid-gap: 10px; */
     }
 
-    #images img {
+    /* #images img {
         max-width: 100%;
         height: 100%;
         object-fit: cover;
-    }
+    } */
 
     footer {
         width: 100%;
