@@ -91,6 +91,8 @@ this site contains thanks message for user for submiting feedback and also let u
 - I tested that you can play music on gallery page.
 - i Tested that youtube video link works on feedback page.
 - I confirm that contact form works without eny problem.
+- i confirm that audio file does not autoplay.
+- I checkedd an dall images work on hosted site
 
 ## bugs
 
@@ -100,7 +102,6 @@ When I was testing my project, I noticed a few bugs:
 
 1. Gallery images had different heights on the desktop version. To fix this bug, I adjusted the grid-template-columns property. I set it to a value that allows columns to automatically adjust to the available space, with each column's width being at least 20% of the container's width and expanding to take up more space if available (repeat(auto-fill, minmax(20%, 1fr)).
 2. In section 3 (the "War" section), the right grid elements were moving upwards as the screen size increased. To address this issue, I set the align-items property to "start."
-
 3. On the contact page, when the screen size was under 300px, the form section was vertically overflowing. To resolve this issue, I centered the form section using flex
 
 ### unfixed bugs
@@ -111,7 +112,8 @@ When I was testing my project, I noticed a few bugs:
 
 - HTML-No errors were found when passing through the official W3C validator.
 - CSS-No errors were found when passing through the official (Jigsaw) validator.
-- I confirm that colors and fonts are checked through lighthouse testing and they are easy to read and accesible.
+- Accessibility
+  I confirm that colors and fonts are checked through lighthouse testing and they are easy to read and accessible.
   ![lighthouse-testing mobile!](./docs/screenshots/lighehouse-home-mobile.png) ![lighthouse-testing mobile!](./docs/screenshots/screen-home-desktop.png)
 
 ## Design
@@ -134,7 +136,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 3. we select the branch in the source section.(main) and save it.
 4. In few moments the page will be automatically refreshed and will generate a URL .
 
-The live link can be found here - https://tamariam.github.io/Russo-Georgian-War/
+- The live link can be found here - https://tamariam.github.io/Russo-Georgian-War/
 
 ## credits
 
