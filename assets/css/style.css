@@ -429,11 +429,9 @@ textarea::placeholder {
 
 .youtube-screen {
     width: 97%;
-    height: 315px;
 }
 
-/* media queris */
-/* for tablets */
+/* media queries  for tablets */
 @media (min-width:768px) {
 
     /* home  */
@@ -471,76 +469,77 @@ textarea::placeholder {
     #images img:hover {
         transform: scale(1.05);
     }
-/* for desktops */
-@media (min-width: 992px) {
-    .war-image {
-        height: 500px;
-    }
 
-    .image-text-div {
-        width: 400px;
-        height: 600px;
-        margin-left: 20px;
-    }
+    /*media queries for desktops */
+    @media (min-width: 992px) {
+        .war-image {
+            height: 500px;
+        }
 
-    .text-on-image {
-        font-size: 26px;
-    }
+        .image-text-div {
+            width: 400px;
+            height: 600px;
+            margin-left: 20px;
+        }
 
-    #h1,
-    .section2-header,
-    .section3-header {
-        padding: 6px 0 6px 0;
-    }
+        .text-on-image {
+            font-size: 26px;
+        }
 
-    .section2-sub-header {
-        font-size: 22px;
-    }
+        #h1,
+        .section2-header,
+        .section3-header {
+            padding: 6px 0 6px 0;
+        }
 
-    .text-div h4,
-    .war-title {
-        font-size: 22px;
-    }
+        .section2-sub-header {
+            font-size: 22px;
+        }
 
-    .text-div p,
-    .war-text {
-        font-size: 20px;
-    }
+        .text-div h4,
+        .war-title {
+            font-size: 22px;
+        }
 
-    .last-section {
-        height: 80px;
-        padding: 25px;
-    }
+        .text-div p,
+        .war-text {
+            font-size: 20px;
+        }
 
-    .last-section h3 {
-        font-size: 22px;
-    }
+        .last-section {
+            height: 80px;
+            padding: 25px;
+        }
 
-    /* gallery */
-    #images {
-        grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
-    }
+        .last-section h3 {
+            font-size: 22px;
+        }
 
-    footer {
-        width: 100%;
-        margin: 10px 0;
-    }
+        /* gallery */
+        #images {
+            grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+        }
 
-    /* feedback html */
-    .feedback-main {
-        height: 750px;
-    }
+        footer {
+            width: 100%;
+            margin: 10px 0;
+        }
 
-    .thanks-message h2 {
-        font-size: 24px;
-    }
+        /* feedback html */
+        .feedback-main {
+            height: 750px;
+        }
 
-    .video-link {
-        max-width: 100%;
-    }
+        .thanks-message h2 {
+            font-size: 24px;
+        }
 
-    .footer {
-        font-size: 24px;
+        .video-link {
+            max-width: 100%;
+        }
+
+        .footer {
+            font-size: 24px;
+        }
     }
-}
 }
