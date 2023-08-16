@@ -154,5 +154,5 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 ### **Media**
 
-- The photos used on the home contact and feedback page are from This [random-war-pictures](https://pixabay.com/images/search/war/) site.
+- The photos used on the home contact and feedback page are from This [pixabay](https://pixabay.com/images/search/war/) site.
 - The images used for the gallery page were taken from [google picures](https://www.google.com/search?sca_esv=556766949&sxsrf=AB5stBgiZCiA-vW2bX-Gk4x-l7wgnilWAQ:1692024454398&q=russo+georgian+war&tbm=isch&source=lnms&sa=X&ved=2ahUKEwj0wbikstyAAxWMXUEAHdgICyMQ0pQJegQICxAB&biw=1920&bih=923&dpr=1) site.
